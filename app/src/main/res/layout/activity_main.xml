@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.apg.coddu.shineeffect.MainActivity">
+
+
+    <RelativeLayout
+        android:layout_width="170dp"
+        android:layout_height="170dp"
+        android:layout_centerInParent="true">
+
+        <ImageView
+            android:id="@+id/img"
+            android:layout_width="170dp"
+            android:layout_height="170dp"
+            android:src="@drawable/sample_coddu" />
+
+        <ImageView
+            android:id="@+id/shine"
+            android:layout_width="50dp"
+            android:layout_marginLeft="-50dp"
+            android:layout_height="170dp"
+            android:src="@drawable/shine_effect" />
+    </RelativeLayout>
+
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="100dp"
+        android:layout_marginTop="32dp"
+        android:text="SHINE" />
+
+</RelativeLayout>
